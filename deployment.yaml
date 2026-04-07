@@ -7,7 +7,7 @@ metadata:
     dev: testing
   name: webhook-test-disable-polling
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: fleet-nginx
